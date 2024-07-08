@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+    <style>
+        body{
+            font-family: "Lucida Sans";
+            background-color: #c0c0c0;}
+
+        /*add a border around the page content*/
+        .border{
+            background-color: white;
+            margin-left: 15%;
+            margin-right: 15%;
+
+        }
+
+        header{
+            background-color: white;
+        }
+
+        /*nav bar*/
+        .navbar{
+            list-style-type: none;
+            margin-top: 30px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #c0c0c0;
+            font-size: medium;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            background-color: #36454f ;
+            color: #c0c0c0}
+        .navbar .active{
+            background-color: #004b86 ;
+            color: #c0c0c0}
+
+        /*page content*/
+        .filler{
+            background-image: linear-gradient(#004b86,#1f9eff) ;
+            color: white;
+            padding: 20px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<header>
+
+    <h1><img src="/images/CincyGas.png" alt="CGLogo" style="width: 100px;height: 100px">Cincy Gas </h1>
+    <!-- Nav bar-->
+    <div class="navbar">
+        <a href="start.html" class="active">Home</a>
+        <a href="order.html">Order Propane</a>
+        <a href="orderLookup.html">Your Order</a>
+    </div>
+
+</header>
+
+<div class="border">
+<img src="/images/Skyline.png" alt="Skyline" >
+<div class="filler">
+    <h2>Trust Your Propane Provider</h2>
+    <p>We are Cincy Gas, where trust and reliability fuel everything we do. As a local provider of propane,
+        we pride ourselves on building lasting relationships with our clients based on transparency, integrity,
+        and exceptional service. From heating your home to firing up your business, you can rely on Cincy Gas to deliver
+    safe and efficient solutions to your propane needs. With decades of experience, and a commitment to excellence,
+    we can guarantee every interaction with us will inspire confidence and peace of mind. Discover why our customers
+        trust us to be their partners in propane,and let us exceed your expectations with our dedication to your satisfaction.</p>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
